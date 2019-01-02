@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MgHttpClient.cpp" />
+    <ClCompile Include="mongoose\mongoose.c">
+      <Filter>mongoose</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MgHttpClient.h" />
+    <ClInclude Include="mongoose\mongoose.h">
+      <Filter>mongoose</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mongoose">
+      <UniqueIdentifier>{a9263ce3-1a6a-4eee-93b9-19a61438cd39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
